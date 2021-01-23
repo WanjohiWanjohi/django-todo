@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title> Django Crash Course</title>
+</head>
+<body>
+	<h4> Create a todo </h4>
+	<form method='POST'>
+		{% csrf_token %}
+		{{ form.as_p }}
+		<button type="submit">Submit</button>
+	</form>
+</body>
+</html>

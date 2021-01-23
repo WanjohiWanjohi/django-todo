@@ -7,4 +7,4 @@ class Todo(models.Model):
 
 	def __str__(self):
 		#return string representation of the model
-		return self.name , self.due_date
+		return self.name 
